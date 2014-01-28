@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48A29B7A1897C52500A1039F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A29B791897C52500A1039F /* Parse.framework */; };
 		C03855521896CF1100AB8FD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855511896CF1100AB8FD5 /* Foundation.framework */; };
 		C03855541896CF1100AB8FD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855531896CF1100AB8FD5 /* CoreGraphics.framework */; };
 		C03855561896CF1100AB8FD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855551896CF1100AB8FD5 /* UIKit.framework */; };
@@ -14,13 +15,28 @@
 		C038555E1896CF1100AB8FD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C038555D1896CF1100AB8FD5 /* main.m */; };
 		C03855621896CF1100AB8FD5 /* SNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C03855611896CF1100AB8FD5 /* SNAppDelegate.m */; };
 		C03855651896CF1100AB8FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03855631896CF1100AB8FD5 /* Main.storyboard */; };
-		C03855681896CF1100AB8FD5 /* SNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03855671896CF1100AB8FD5 /* SNViewController.m */; };
+		C03855681896CF1100AB8FD5 /* SNViewControllerCadastro.m in Sources */ = {isa = PBXBuildFile; fileRef = C03855671896CF1100AB8FD5 /* SNViewControllerCadastro.m */; };
 		C038556A1896CF1100AB8FD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03855691896CF1100AB8FD5 /* Images.xcassets */; };
 		C03855711896CF1100AB8FD5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855701896CF1100AB8FD5 /* XCTest.framework */; };
 		C03855721896CF1100AB8FD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855511896CF1100AB8FD5 /* Foundation.framework */; };
 		C03855731896CF1100AB8FD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855551896CF1100AB8FD5 /* UIKit.framework */; };
 		C038557B1896CF1100AB8FD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C03855791896CF1100AB8FD5 /* InfoPlist.strings */; };
 		C038557D1896CF1100AB8FD5 /* AppCidadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C038557C1896CF1100AB8FD5 /* AppCidadeTests.m */; };
+		C03855871896CF3A00AB8FD5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855861896CF3A00AB8FD5 /* Parse.framework */; };
+		C03855891896CF6300AB8FD5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855881896CF6300AB8FD5 /* SystemConfiguration.framework */; };
+		C038558B1896CF6B00AB8FD5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C038558A1896CF6B00AB8FD5 /* StoreKit.framework */; };
+		C038558D1896CF7400AB8FD5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C038558C1896CF7400AB8FD5 /* Social.framework */; };
+		C038558F1896CF7B00AB8FD5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C038558E1896CF7B00AB8FD5 /* Security.framework */; };
+		C03855911896CF8300AB8FD5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855901896CF8300AB8FD5 /* QuartzCore.framework */; };
+		C03855931896CF8B00AB8FD5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855921896CF8B00AB8FD5 /* MobileCoreServices.framework */; };
+		C03855951896CF9800AB8FD5 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855941896CF9800AB8FD5 /* libz.1.1.3.dylib */; };
+		C03855971896CFA500AB8FD5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855961896CFA500AB8FD5 /* libsqlite3.dylib */; };
+		C03855991896CFAB00AB8FD5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855981896CFAB00AB8FD5 /* CoreLocation.framework */; };
+		C038559B1896CFB300AB8FD5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C038559A1896CFB300AB8FD5 /* CFNetwork.framework */; };
+		C038559D1896CFBB00AB8FD5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C038559C1896CFBB00AB8FD5 /* AdSupport.framework */; };
+		C038559F1896CFC300AB8FD5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C038559E1896CFC300AB8FD5 /* Accounts.framework */; };
+		C03855A11896CFD000AB8FD5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03855A01896CFD000AB8FD5 /* AudioToolbox.framework */; };
+		C03855A418970C9E00AB8FD5 /* SNViewControllerLogout.m in Sources */ = {isa = PBXBuildFile; fileRef = C03855A318970C9E00AB8FD5 /* SNViewControllerLogout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48A29B791897C52500A1039F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
 		C038554E1896CF1100AB8FD5 /* AppCidade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCidade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03855511896CF1100AB8FD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C03855531896CF1100AB8FD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +62,30 @@
 		C03855601896CF1100AB8FD5 /* SNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAppDelegate.h; sourceTree = "<group>"; };
 		C03855611896CF1100AB8FD5 /* SNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAppDelegate.m; sourceTree = "<group>"; };
 		C03855641896CF1100AB8FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C03855661896CF1100AB8FD5 /* SNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNViewController.h; sourceTree = "<group>"; };
-		C03855671896CF1100AB8FD5 /* SNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNViewController.m; sourceTree = "<group>"; };
+		C03855661896CF1100AB8FD5 /* SNViewControllerCadastro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNViewControllerCadastro.h; sourceTree = "<group>"; };
+		C03855671896CF1100AB8FD5 /* SNViewControllerCadastro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNViewControllerCadastro.m; sourceTree = "<group>"; };
 		C03855691896CF1100AB8FD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C038556F1896CF1100AB8FD5 /* AppCidadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppCidadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03855701896CF1100AB8FD5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C03855781896CF1100AB8FD5 /* AppCidadeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCidadeTests-Info.plist"; sourceTree = "<group>"; };
 		C038557A1896CF1100AB8FD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C038557C1896CF1100AB8FD5 /* AppCidadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCidadeTests.m; sourceTree = "<group>"; };
+		C03855861896CF3A00AB8FD5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		C03855881896CF6300AB8FD5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C038558A1896CF6B00AB8FD5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C038558C1896CF7400AB8FD5 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C038558E1896CF7B00AB8FD5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C03855901896CF8300AB8FD5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C03855921896CF8B00AB8FD5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C03855941896CF9800AB8FD5 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		C03855961896CFA500AB8FD5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C03855981896CFAB00AB8FD5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C038559A1896CFB300AB8FD5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C038559C1896CFBB00AB8FD5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C038559E1896CFC300AB8FD5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C03855A01896CFD000AB8FD5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C03855A218970C9E00AB8FD5 /* SNViewControllerLogout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNViewControllerLogout.h; sourceTree = "<group>"; };
+		C03855A318970C9E00AB8FD5 /* SNViewControllerLogout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNViewControllerLogout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +94,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03855541896CF1100AB8FD5 /* CoreGraphics.framework in Frameworks */,
-				C03855561896CF1100AB8FD5 /* UIKit.framework in Frameworks */,
 				C03855521896CF1100AB8FD5 /* Foundation.framework in Frameworks */,
+				C03855561896CF1100AB8FD5 /* UIKit.framework in Frameworks */,
+				C03855A11896CFD000AB8FD5 /* AudioToolbox.framework in Frameworks */,
+				C038559F1896CFC300AB8FD5 /* Accounts.framework in Frameworks */,
+				C038559D1896CFBB00AB8FD5 /* AdSupport.framework in Frameworks */,
+				C038559B1896CFB300AB8FD5 /* CFNetwork.framework in Frameworks */,
+				C03855991896CFAB00AB8FD5 /* CoreLocation.framework in Frameworks */,
+				C03855971896CFA500AB8FD5 /* libsqlite3.dylib in Frameworks */,
+				C03855951896CF9800AB8FD5 /* libz.1.1.3.dylib in Frameworks */,
+				48A29B7A1897C52500A1039F /* Parse.framework in Frameworks */,
+				C03855931896CF8B00AB8FD5 /* MobileCoreServices.framework in Frameworks */,
+				C03855911896CF8300AB8FD5 /* QuartzCore.framework in Frameworks */,
+				C038558F1896CF7B00AB8FD5 /* Security.framework in Frameworks */,
+				C038558D1896CF7400AB8FD5 /* Social.framework in Frameworks */,
+				C038558B1896CF6B00AB8FD5 /* StoreKit.framework in Frameworks */,
+				C03855891896CF6300AB8FD5 /* SystemConfiguration.framework in Frameworks */,
+				C03855871896CF3A00AB8FD5 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +149,21 @@
 		C03855501896CF1100AB8FD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C03855A01896CFD000AB8FD5 /* AudioToolbox.framework */,
+				C038559E1896CFC300AB8FD5 /* Accounts.framework */,
+				C038559C1896CFBB00AB8FD5 /* AdSupport.framework */,
+				C038559A1896CFB300AB8FD5 /* CFNetwork.framework */,
+				C03855981896CFAB00AB8FD5 /* CoreLocation.framework */,
+				C03855961896CFA500AB8FD5 /* libsqlite3.dylib */,
+				48A29B791897C52500A1039F /* Parse.framework */,
+				C03855941896CF9800AB8FD5 /* libz.1.1.3.dylib */,
+				C03855921896CF8B00AB8FD5 /* MobileCoreServices.framework */,
+				C03855901896CF8300AB8FD5 /* QuartzCore.framework */,
+				C038558E1896CF7B00AB8FD5 /* Security.framework */,
+				C038558C1896CF7400AB8FD5 /* Social.framework */,
+				C038558A1896CF6B00AB8FD5 /* StoreKit.framework */,
+				C03855881896CF6300AB8FD5 /* SystemConfiguration.framework */,
+				C03855861896CF3A00AB8FD5 /* Parse.framework */,
 				C03855511896CF1100AB8FD5 /* Foundation.framework */,
 				C03855531896CF1100AB8FD5 /* CoreGraphics.framework */,
 				C03855551896CF1100AB8FD5 /* UIKit.framework */,
@@ -115,8 +178,10 @@
 				C03855601896CF1100AB8FD5 /* SNAppDelegate.h */,
 				C03855611896CF1100AB8FD5 /* SNAppDelegate.m */,
 				C03855631896CF1100AB8FD5 /* Main.storyboard */,
-				C03855661896CF1100AB8FD5 /* SNViewController.h */,
-				C03855671896CF1100AB8FD5 /* SNViewController.m */,
+				C03855661896CF1100AB8FD5 /* SNViewControllerCadastro.h */,
+				C03855671896CF1100AB8FD5 /* SNViewControllerCadastro.m */,
+				C03855A218970C9E00AB8FD5 /* SNViewControllerLogout.h */,
+				C03855A318970C9E00AB8FD5 /* SNViewControllerLogout.m */,
 				C03855691896CF1100AB8FD5 /* Images.xcassets */,
 				C03855581896CF1100AB8FD5 /* Supporting Files */,
 			);
@@ -251,7 +316,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C038555E1896CF1100AB8FD5 /* main.m in Sources */,
-				C03855681896CF1100AB8FD5 /* SNViewController.m in Sources */,
+				C03855A418970C9E00AB8FD5 /* SNViewControllerLogout.m in Sources */,
+				C03855681896CF1100AB8FD5 /* SNViewControllerCadastro.m in Sources */,
 				C03855621896CF1100AB8FD5 /* SNAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +445,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Gabriel/Desktop,
+					/Users/gabrielgiulian/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppCidade/AppCidade-Prefix.pch";
 				INFOPLIST_FILE = "AppCidade/AppCidade-Info.plist";
@@ -392,6 +463,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Gabriel/Desktop,
+					/Users/gabrielgiulian/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppCidade/AppCidade-Prefix.pch";
 				INFOPLIST_FILE = "AppCidade/AppCidade-Info.plist";
@@ -461,6 +537,7 @@
 				C03855821896CF1100AB8FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C03855831896CF1100AB8FD5 /* Build configuration list for PBXNativeTarget "AppCidadeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +546,7 @@
 				C03855851896CF1100AB8FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

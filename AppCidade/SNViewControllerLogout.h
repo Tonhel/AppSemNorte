@@ -1,5 +1,5 @@
 //
-//  SNViewController.h
+//  SNViewControllerLogout.h
 //  AppCidade
 //
 //  Created by Gabriel on 1/27/14.
@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
-@interface SNViewController : UIViewController
+@interface SNViewControllerLogout : UIViewController
+
+- (IBAction)botaoLogout:(id)sender;
 
 @end
